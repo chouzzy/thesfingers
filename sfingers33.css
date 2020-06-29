@@ -3,7 +3,7 @@
 }
 body {
   margin: 0 auto;
-  background:#2f4548;
+  background:url(bg4.png) repeat-x;
 }
 #master {
   background: URL(bg4.png) repeat-x;
