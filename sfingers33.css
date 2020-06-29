@@ -5,7 +5,8 @@ body {
   margin: 0 auto;
 }
 #master {
-  background: image(bgtry.png) repeat-x;
+  background: URL(bg4.png) repeat-x;
+Border: 1px solid red;
 }
 /* inicio do cabeçalho */
 #container {
