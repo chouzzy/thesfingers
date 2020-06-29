@@ -1,0 +1,213 @@
+* {
+  font-family: Malgun Gothic;
+}
+body {
+  margin: 0 auto;
+  background:#f5dfef url(bg4.png) repeat-x;
+}
+/* inicio do cabeçalho */
+#container {
+  margin: 0 auto;
+  width: 1080px;
+}
+/* box do cabeçalho */
+header {
+  min-width: 900px;
+  width: 100%;
+  float: left;
+  height: 150px;
+}
+nav {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+/* formatação do logo do cabeçalho */
+#logo a {
+  height: 129px;
+  width: 156px;
+  text-indent: -3000px;
+  background: url(logocp3.png) no-repeat;
+  display: block;
+}
+#logo {
+  float: left;
+  margin-left: 10%;
+}
+/* formatação do menu central do cabeçalho */
+nav ul li {
+  float: left;
+  padding: 5px 10px;
+}
+nav ul {
+  margin-top: 113px;
+  margin-left: 12%;
+  list-style: none;
+  padding: 5px 20px;
+  float: left;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #23c0e6;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #ff29a9;
+}
+/* formatação do menu de midias sociais */
+div.socialmedia {
+  margin-top: 115px;
+  padding: 6px;
+  margin-right: 5%;
+  float: right;
+  display: block;
+}
+div.socialmedia a {
+  padding: 3px 3px;
+}
+nav div.socialmedia i:hover {
+  border-bottom: 2px solid #23c0e6;
+}
+/* borda abaixo do cabeçalho */
+.border {
+  clear: both;
+  height: 5px;
+}
+
+/* conteudo principal */
+#principal {
+  padding: 20px;
+  width: 1080px;
+  margin: 0 auto;
+}
+/* conteudo esquerdo (maior) */
+#conteudoleft {
+  height: 80%;
+  width: 60%;
+  float: left;
+}
+#conteudoleftvideo,
+#conteudoleftquemsomos {
+  height: 80%;
+  width: 100%;
+  float: left;
+}
+#conteudoleft h3,
+#conteudoleftvideo h3,
+#conteudoleftquemsomos h3 {
+  color: #1c363b;
+  padding: 15px 15px 0px 15px;
+}
+#conteudoleft section article.imageminicial img,
+#conteudoleftvideo section article.imageminicial img,
+#conteudoquemsomos section article.imageminicial img{
+  padding: 0 15px;
+}
+#conteudoleft section label,
+#conteudoquemsomos section label,
+#conteudoleftvideo section label {
+  font-size: 12px;
+  padding: 0 50px 5px 15px;
+}
+#conteudoleftquemsomos section p {
+  padding: 0 50px 5px 15px;
+}
+#conteudoleft section,
+#conteudoleftvideo section,
+#conteudoleftquemsomos section{
+  margin: 5px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 0 10px 10px 5px;
+}
+iframe {
+  padding: 0 50px 0px 15px;
+}
+
+/* conteudo direito (menor) */
+
+#conteudoright {
+  height: 80%;
+  width: 35%;
+  float: right;
+  margin-top: 20px;
+}
+#conteudoright h3 {
+  color: #1c363b;
+  padding: 2px 15px;
+}
+#conteudoright section article.imagemlateral p {
+  font-size: 14px;
+  padding: 0 50px 5px 15px;
+}
+#conteudoright section article.contact {
+  background: #cdc8b1;
+  padding: 15px;
+}
+#conteudoright section article.contact h3 {
+  color: #265471;
+  font-size: 1.1em;
+  padding: 0;
+}
+#conteudoright input.email {
+  width: 250px;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+#conteudoright label.labelname{
+  color: #265471;
+  padding-right: 1px;
+}
+#conteudoright label.labelemail {
+  color: #265471;
+}
+#conteudoright input.button {
+  background: #1c444b;
+  font-size: 0.9em;
+  width: 100%;
+  margin: 10px 0 0px 0;
+  padding: 3px 10px 4px 10px;
+  color: white;
+  border: 1px solid #70969f;
+  cursor:pointer;
+}
+footer {
+  clear: both;
+}
+footer ul li {
+  float: left;
+}
+footer ul {
+  border-radius: 10px;
+  float: left;
+  list-style: none;
+  display: block;
+  width: 70%;
+  padding-left: 40%;
+}
+footer a {
+  text-decoration: none;
+  color: #265471;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+footer a:hover {
+  color:#23c0e6;
+}
+footer .copyright {
+  font-size: 12px;
+  text-align: center;
+  margin-right: 7%;
+}
+footer ul li.menu a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+footer p {
+  text-align: center;
+  padding-left: 16%;
+}
