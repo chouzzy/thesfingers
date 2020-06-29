@@ -3,7 +3,7 @@
 }
 body {
   margin: 0 auto;
-  background:url(bgtry.png) repeat-x;
+  background: url(bgtry.png)  repeat-x top left;
 }
 /* inicio do cabeçalho */
 #container {
