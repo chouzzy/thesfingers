@@ -3,10 +3,12 @@
 }
 body {
   margin: 0 auto;
-  background:url(bg4.png) repeat-x;
+  background: #f7f7f7;
 }
 #master {
-  background: URL(bg4.png) repeat-x;
+  background: URL(bgtry.png) repeat-x;
+  background-size: cover;
+  height:152px;
 }
 /* inicio do cabeçalho */
 #container {
