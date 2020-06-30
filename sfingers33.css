@@ -9,6 +9,7 @@ body {
   background: URL(bgtry.png) repeat-x;
   background-size: cover;
   height:152px;
+  border: 4px solid red;
 }
 /* inicio do cabeçalho */
 #container {
